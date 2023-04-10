@@ -4,7 +4,7 @@ import "@fontsource/manrope";
 
 const Header = () => {
   return (
-    <div className="flex justify-between items-center px-40 py-12">
+    <div className="flex justify-between items-center px-40 py-12 bg-purple-50">
       <h2 className="font-extrabold text-3xl tracking-wide">TalentHub</h2>
       <div className="font-medium text-base text-gray-700 inline-flex gap-8">
         <Link>Home</Link>
