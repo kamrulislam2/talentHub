@@ -1,10 +1,12 @@
 import React from "react";
-import HeaderInfo from "./HeaderInfo";
+import Banner from "./Banner";
+import JobCategory from "./JobCategory";
 
 const Home = () => {
   return (
     <div>
-      <HeaderInfo></HeaderInfo>
+      <Banner></Banner>
+      <JobCategory></JobCategory>
     </div>
   );
 };

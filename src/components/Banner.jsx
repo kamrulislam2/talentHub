@@ -1,6 +1,6 @@
 import React from "react";
 
-const HeaderInfo = () => {
+const Banner = () => {
   return (
     <div className="px-40 py-1 flex justify-between items-center bg-purple-50">
       <div className="w-full">
@@ -27,4 +27,4 @@ const HeaderInfo = () => {
   );
 };
 
-export default HeaderInfo;
+export default Banner;
