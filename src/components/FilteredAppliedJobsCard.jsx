@@ -2,7 +2,7 @@ import React from "react";
 import { MapPinIcon, CurrencyDollarIcon } from "@heroicons/react/24/solid";
 import { Link } from "react-router-dom";
 
-const AppliedJobsCard = ({ singleAppliedData }) => {
+const FilteredAppliedJobsCard = ({ singleFilteredJob }) => {
   const {
     id,
     companyLogo,
@@ -12,8 +12,7 @@ const AppliedJobsCard = ({ singleAppliedData }) => {
     jobType,
     location,
     salary,
-  } = singleAppliedData;
-
+  } = singleFilteredJob;
   return (
     <div className="flex justify-between mb-6 items-center p-7 border rounded-lg">
       <div className="inline-flex items-center gap-8">
@@ -56,4 +55,4 @@ const AppliedJobsCard = ({ singleAppliedData }) => {
   );
 };
 
-export default AppliedJobsCard;
+export default FilteredAppliedJobsCard;

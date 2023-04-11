@@ -1,0 +1,37 @@
+[
+    {
+        "assignmentId" : "first01",
+        "assignmentName": "New year new mission",
+        "result" : "60"
+    },
+    {
+        "assignmentId" : "second02",
+        "assignmentName": "G3-Architects",
+        "result" : "59"
+    },
+    {
+        "assignmentId" : "third03",
+        "assignmentName": "ED Tech Landing Page",
+        "result" : "60"
+    },
+    {
+        "assignmentId" : "fourth04",
+        "assignmentName": "Basic Javascript Problem Solving",
+        "result" : "60"
+    },
+    {
+        "assignmentId" : "fifth05",
+        "assignmentName": "Geometry Genius",
+        "result" : "60"
+    },
+    {
+        "assignmentId" : "sixth06",
+        "assignmentName": "AI universe API and ES6",
+        "result" : "54"
+    },
+    {
+        "assignmentId" : "seventh07",
+        "assignmentName": "Make Quiz Hero a great website",
+        "result" : "60"
+    }
+]

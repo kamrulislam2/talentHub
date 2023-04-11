@@ -8,7 +8,7 @@ const Header = () => {
       <h2 className="font-extrabold text-3xl tracking-wide">TalentHub</h2>
       <div className="font-medium text-base text-gray-700 inline-flex gap-8">
         <Link to="/">Home</Link>
-        <Link>Statistics</Link>
+        <Link to="/statistics">Statistics</Link>
         <Link to="/appliedJobs">Applied Jobs</Link>
         <Link>blog</Link>
       </div>

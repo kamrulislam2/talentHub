@@ -2,7 +2,7 @@ import React from "react";
 import { MapPinIcon, CurrencyDollarIcon } from "@heroicons/react/24/solid";
 import { Link } from "react-router-dom";
 
-const FeaturedJobCard = ({ singleJobData, handleViewDetails }) => {
+const FeaturedJobCard = ({ singleJobData }) => {
   const {
     id,
     companyLogo,
@@ -38,10 +38,7 @@ const FeaturedJobCard = ({ singleJobData, handleViewDetails }) => {
       </div>
       <div className="relative">
         <Link to={`/viewDetails/${id}`}>
-          <button
-            onClick={() => handleViewDetails(id)}
-            className="font-extrabold text-lg text-white bg-purple-500 py-3 px-5 rounded-lg mb-auto"
-          >
+          <button className="font-extrabold text-lg text-white bg-purple-500 py-3 px-5 rounded-lg mb-auto">
             View Details
           </button>
         </Link>
