@@ -6,12 +6,14 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./components/Home";
 import ViewDetails from "./components/ViewDetails";
 import AppliedJobs from "./components/AppliedJobs";
-import Statistics from "./components/Statistics";
+import AssignmentStatistics from "./components/AssignmentStatistics";
+import Error from "./components/Error";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
+    errorElement: <Error></Error>,
     children: [
       {
         path: "/",
@@ -30,7 +32,8 @@ const router = createBrowserRouter([
       },
       {
         path: "/statistics",
-        element: <Statistics></Statistics>,
+        element: <AssignmentStatistics></AssignmentStatistics>,
+        loader: () => fetch("/assignmentData.json"),
       },
     ],
   },

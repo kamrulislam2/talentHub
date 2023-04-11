@@ -67,7 +67,7 @@ const ViewSingleDetailsCard = ({ singleJobDetail, handleApplyNow }) => {
       </div>
       <button
         onClick={() => handleApplyNow(id)}
-        className="w-full py-5 bg-purple-500 font-extrabold text-xl text-white rounded-lg"
+        className="w-full py-5 bg-purple-500 hover:bg-purple-800 font-extrabold text-xl text-white rounded-lg"
       >
         Apply Now
       </button>

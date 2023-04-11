@@ -38,7 +38,7 @@ const FeaturedJobCardFull = ({ singleJobData2 }) => {
       </div>
       <div className="relative">
         <Link to={`/viewDetails/${id}`}>
-          <button className="font-extrabold text-lg text-white bg-purple-500 py-3 px-5 rounded-lg mb-auto">
+          <button className="font-extrabold text-lg text-white bg-purple-500 hover:bg-purple-800 py-3 px-5 rounded-lg mb-auto">
             View Details
           </button>
         </Link>

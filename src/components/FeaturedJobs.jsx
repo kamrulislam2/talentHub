@@ -54,14 +54,14 @@ const FeaturedJobs = () => {
       {showAll ? (
         <button
           onClick={handleShowAll}
-          className="font-extrabold text-xl text-white bg-purple-500 py-4 px-7 rounded-lg mb-28"
+          className="font-extrabold text-xl text-white bg-purple-500 py-4 hover:bg-purple-800 px-7 rounded-lg mb-28"
         >
           See Less
         </button>
       ) : (
         <button
           onClick={handleShowAll}
-          className="font-extrabold text-xl text-white bg-purple-500 py-4 px-7 rounded-lg mb-28"
+          className="font-extrabold text-xl text-white bg-purple-500 hover:bg-purple-800 py-4 px-7 rounded-lg mb-28"
         >
           See All Job
         </button>

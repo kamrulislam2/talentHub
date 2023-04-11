@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -14,9 +15,11 @@ const Banner = () => {
           need. Its your future. Come find it. Manage all your job application
           from start to finish.
         </p>
-        <button className="font-extrabold text-xl text-white bg-purple-500 py-4 px-7 rounded-lg">
-          Get Started
-        </button>
+        <Link to="/">
+          <button className="font-extrabold text-xl text-white bg-purple-500 hover:bg-purple-800 py-4 px-7 rounded-lg">
+            Get Started
+          </button>
+        </Link>
       </div>
       <img
         className="w-2/4 h-full -mr-20"
