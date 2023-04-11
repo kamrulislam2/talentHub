@@ -1,4 +1,5 @@
 import React from "react";
+import { Toaster } from "react-hot-toast";
 
 const ViewSingleDetailsCard = ({ singleJobDetail, handleApplyNow }) => {
   const { salary, jobTitle, contactInformation, location, id } =
@@ -71,6 +72,7 @@ const ViewSingleDetailsCard = ({ singleJobDetail, handleApplyNow }) => {
       >
         Apply Now
       </button>
+      <Toaster />
     </div>
   );
 };

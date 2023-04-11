@@ -22,7 +22,9 @@ const Header = () => {
         >
           Applied Jobs
         </Link>
-        <Link className="active:bg-purple-200 active:rounded-lg">blog</Link>
+        <Link to="/blog" className="active:bg-purple-200 active:rounded-lg">
+          blog
+        </Link>
       </div>
       <Link to="/">
         <button className="font-extrabold text-xl text-white bg-purple-500 hover:bg-purple-800 py-4 px-7 rounded-lg">

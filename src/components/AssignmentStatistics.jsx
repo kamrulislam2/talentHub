@@ -7,8 +7,6 @@ import {
   PolarAngleAxis,
   PolarRadiusAxis,
   Tooltip,
-  XAxis,
-  YAxis,
 } from "recharts";
 
 const AssignmentStatistics = () => {
@@ -43,7 +41,7 @@ const AssignmentStatistics = () => {
       </div>
       <p className="text-gray-500 font-medium text-xl">
         <span className="text-gray-900 font-extrabold text-xl">Chart:</span>{" "}
-        Assignment result using{" "}
+        Assignment result using
         <i className="text-gray-900 font-extrabold text-xl">Radar Chart</i>
       </p>
     </div>

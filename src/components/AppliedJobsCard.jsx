@@ -17,7 +17,7 @@ const AppliedJobsCard = ({ singleAppliedData }) => {
   return (
     <div className="flex justify-between mb-6 items-center p-7 border rounded-lg">
       <div className="inline-flex items-center gap-8">
-        <div className="w-60 h-60 bg-gray-200 flex justify-center items-center">
+        <div className="w-60 h-60 rounded-lg bg-gray-200 flex justify-center items-center">
           <img className="h-10 w-32" src={companyLogo} alt="" />
         </div>
         <div className="text-left relative">
