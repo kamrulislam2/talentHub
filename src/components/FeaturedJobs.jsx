@@ -28,6 +28,10 @@ const FeaturedJobs = () => {
   const handleShowAll = () => {
     setShowAll(!showAll);
   };
+
+  const handleViewDetails = (id) => {
+    // console.log(id, "clicked");
+  };
   return (
     <div className="px-40 text-center">
       <h2 className="font-extrabold text-4xl mb-4">Featured Jobs</h2>
@@ -41,12 +45,14 @@ const FeaturedJobs = () => {
               <FeaturedJobCardFull
                 key={singleJobData2.id}
                 singleJobData2={singleJobData2}
+                handleViewDetails={handleViewDetails}
               ></FeaturedJobCardFull>
             ))
           : jobDataArr.map((singleJobData) => (
               <FeaturedJobCard
                 key={singleJobData.id}
                 singleJobData={singleJobData}
+                handleViewDetails={handleViewDetails}
               ></FeaturedJobCard>
             ))}
       </div>
