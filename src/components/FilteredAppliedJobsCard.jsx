@@ -16,7 +16,7 @@ const FilteredAppliedJobsCard = ({ singleFilteredJob }) => {
   return (
     <div className="flex justify-between mb-6 items-center p-7 border rounded-lg">
       <div className="inline-flex items-center gap-8">
-        <div className="w-60 h-60 bg-gray-200 flex justify-center items-center">
+        <div className="w-60 h-60 rounded bg-gray-200 flex justify-center items-center">
           <img className="h-10 w-32" src={companyLogo} alt="" />
         </div>
         <div className="text-left relative">
@@ -31,7 +31,7 @@ const FilteredAppliedJobsCard = ({ singleFilteredJob }) => {
                 {jobType}
               </p>
             </div>
-            <div className="inline-flex gap-6 items-center mb-6 mb-auto">
+            <div className="inline-flex gap-6 items-center ">
               <p className="inline-flex gap-2 items-center font-semibold text-lg text-gray-500">
                 <MapPinIcon className="h-6 w-6 bg-white" />
                 {location}

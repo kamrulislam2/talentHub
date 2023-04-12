@@ -4,9 +4,9 @@ import "@fontsource/manrope";
 
 const Header = () => {
   return (
-    <div className="flex justify-between items-center px-40 py-12 bg-purple-50">
+    <div className="flex flex-col lg:flex-row gap-y-5 justify-between lg:items-center px-8 py-6 lg:px-40 lg:py-12 bg-purple-50">
       <h2 className="font-extrabold text-3xl tracking-wide">TalentHub</h2>
-      <div className="font-bold text-base text-gray-700 inline-flex gap-8">
+      <div className="font-bold text-base text-gray-700 flex flex-col lg:inline-flex lg:flex-row lg:gap-8">
         <Link to="/" className="active:bg-purple-200 active:rounded-lg">
           Home
         </Link>
@@ -27,7 +27,7 @@ const Header = () => {
         </Link>
       </div>
       <Link to="/">
-        <button className="font-extrabold text-xl text-white bg-purple-500 hover:bg-purple-800 py-4 px-7 rounded-lg">
+        <button className="font-extrabold text-xl text-white bg-purple-500 hover:bg-purple-800 px-4 py-3 lg:py-4 lg:px-7 rounded-lg">
           Start Applying
         </button>
       </Link>

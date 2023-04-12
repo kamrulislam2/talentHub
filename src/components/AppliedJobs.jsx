@@ -47,7 +47,7 @@ const AppliedJobs = () => {
   };
   console.log(filteredJobs);
   return (
-    <div className="text-center ">
+    <div className="text-center mb-28">
       <h2 className="font-extrabold text-3xl pb-28 bg-purple-50">
         Applied Jobs
       </h2>
@@ -85,7 +85,7 @@ const AppliedJobs = () => {
           )}
         </div>
       </div>
-      <div className="h-72 mt-10 px-40 ">
+      <div className="mt-10 px-40 ">
         {showFilterJob
           ? filteredJobs.map((singleFilteredJob) => (
               <FilteredAppliedJobsCard

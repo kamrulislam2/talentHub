@@ -26,8 +26,8 @@ const FeaturedJobCard = ({ singleJobData }) => {
           {jobType}
         </p>
       </div>
-      <div className="inline-flex gap-6 items-center mb-6">
-        <p className="inline-flex gap-2 items-center font-semibold text-lg text-gray-500">
+      <div className="lg:inline-flex gap-6 items-center mb-6">
+        <p className="inline-flex gap-2 items-center font-semibold text-lg text-gray-500 mb-4 lg:mb-0">
           <MapPinIcon className="h-6 w-6 bg-white" />
           {location}
         </p>
@@ -38,7 +38,7 @@ const FeaturedJobCard = ({ singleJobData }) => {
       </div>
       <div className="relative">
         <Link to={`/viewDetails/${id}`}>
-          <button className="font-extrabold text-lg text-white bg-purple-500 hover:bg-purple-800 py-3 px-5 rounded-lg mb-auto">
+          <button className="font-extrabold text-lg text-white bg-purple-500 hover:bg-purple-800 py-3 px-3 lg:px-5 rounded-lg mb-auto">
             View Details
           </button>
         </Link>

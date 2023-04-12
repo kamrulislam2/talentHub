@@ -13,7 +13,7 @@ const AssignmentStatistics = () => {
   const assignmentData = useLoaderData();
 
   return (
-    <div className="text-center">
+    <div className="text-center mb-12">
       <h2 className="font-extrabold text-3xl pb-28 bg-purple-50">
         Assignment Statistics
       </h2>

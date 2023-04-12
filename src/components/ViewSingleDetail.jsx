@@ -9,8 +9,8 @@ const ViewSingleDetail = ({ singleJobDetail, handleApplyNow }) => {
     experience,
   } = singleJobDetail;
   return (
-    <div className="flex gap-6 justify-between px-40 mt-28">
-      <div className="text-left w-8/12">
+    <div className="lg:flex gap-6 justify-between px-8 lg:px-40 mt-28">
+      <div className="text-left w-full lg:w-8/12">
         <p className="font-medium text-base text-gray-500 leading-loose mb-6">
           <span className="font-extrabold text-base text-gray-900">
             Job Description:
@@ -38,7 +38,7 @@ const ViewSingleDetail = ({ singleJobDetail, handleApplyNow }) => {
           {experience}
         </p>
       </div>
-      <div className="w-4/12">
+      <div className="w-full lg:w-4/12">
         <ViewSingleDetailsCard
           singleJobDetail={singleJobDetail}
           handleApplyNow={handleApplyNow}

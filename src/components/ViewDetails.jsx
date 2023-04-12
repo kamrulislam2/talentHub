@@ -16,7 +16,7 @@ const ViewDetails = () => {
   };
   return (
     <div className="text-center">
-      <h2 className="font-extrabold text-3xl pb-28 bg-purple-50">
+      <h2 className="font-extrabold text-3xl pb-12 lg:pb-28 pt-12 lg:pt-0 bg-purple-50">
         Job Details
       </h2>
 

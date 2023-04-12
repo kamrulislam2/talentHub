@@ -6,7 +6,7 @@ const ViewSingleDetailsCard = ({ singleJobDetail, handleApplyNow }) => {
     singleJobDetail;
   return (
     <div className="mb-28">
-      <div className="bg-purple-50 p-8 rounded-lg mb-6">
+      <div className="bg-purple-50 px-2 py-8 lg:p-8 rounded-lg mb-6">
         <div>
           <h2 className="font-extrabold text-xl border-b-2 text-left pb-6">
             Job Details
