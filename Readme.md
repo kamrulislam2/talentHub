@@ -19,4 +19,4 @@
 
   ** And many thanks for reading my writings 😁 **
 
-  - Live site link:
+  - Live site link: https://talent-hub-assignment-09.netlify.app/
