@@ -15,6 +15,7 @@ const AppliedJobs = () => {
 
   useEffect(() => {
     const appliedJobsData = getAppliedJob();
+
     for (const id in appliedJobsData) {
       const filteredJobData = jobsData.filter(
         (singleJobData) => singleJobData.id === id
@@ -22,6 +23,7 @@ const AppliedJobs = () => {
       newJobsDataArray.push(...filteredJobData);
     }
     setAppliedData(newJobsDataArray);
+    console.log(appliedData);
   }, []);
 
   const handleSortBy = (jobStatus) => {
@@ -45,7 +47,7 @@ const AppliedJobs = () => {
       setSortBy(false);
     }
   };
-  console.log(filteredJobs);
+
   return (
     <div className="text-center mb-28">
       <h2 className="font-extrabold text-3xl pb-28 bg-purple-50">
