@@ -17,6 +17,6 @@
     So, please ignore the mere image 😁
   - I designed the home page for mobile responsive also with footer.
 
-  \*\*\* And many thanks for reading my writings 😁
+  ** And many thanks for reading my writings 😁 **
 
   - Live site link:
